@@ -16,22 +16,22 @@
         }
 
         .innhold::first-letter {
-            font-size: 5.rem;
-            font-weight: bolder;
-            line-height: 2;
+            font-size: 30px;
+            font-weight: 1000;
+            line-height: 1.5;
             color: white;
 
             padding: 0.9rem 1rem;
             background: rgb(174, 31, 31);
 
-            margin-right: 0.8rem;
+            margin-right: 0.5rem;
 
             float: left;
         }
 
         .overskrift{
             font-family: fantasy;
-            font-size: large;
+            font-size: 18px;
             font-weight: 0.5;
         }
 
@@ -47,7 +47,6 @@
         }
     </style>
 
-    
     <div class="overskrift">
     <h1>Litt om programering i html og css kort forklart</h1>
     </div>
@@ -79,6 +78,35 @@
     </p>
     </div>
 
+    <script>
+        function switchPage(index) {
+            window.location.href = index + ".html";
+        }
+    </script>
+    
+    <div class="knapp">
+    <button 
+    style="
+    background: rgb(174, 31, 31);
+    color: white;
+    border-radius: 8px;
+    font-family: fantasy;
+    height: 35px;
+    width: 60px;
+    "
+    onclick="switchPage('index')">Side 1</button>
+
+    <button 
+    style="
+    background: rgb(174, 31, 31);
+    color: white;
+    border-radius: 8px;
+    font-family: fantasy;
+    height: 35px;
+    width: 60px;
+    "
+    onclick="switchPage('index2')">Side 2</button>
+    </div>
+
     </body>
     </html>
-    
