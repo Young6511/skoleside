@@ -4,19 +4,34 @@
         <meta charset="utf-8">
         <title>skole side</title>
     </head>
-    <body bgcolor="#212534">
-    <body text="#DBDBDC">
+    <body background="#FFFFFF">
+    <body text="#000000">
     <body link="EC0000o">
     <body vlink="EC0000">
         
-    <p>
-       <center><h1>Skole nettside</h1></center>
-    </p>
+        
+    <style>
+        h1::first-line {
+            color: red;
+        }
 
-    <p>
-        <center><b>Her er en simpel nettside jeg lagde med kodespråket html</b></center>
-    </p>
+        .content::first-letter {
+            font-size: 5.rem;
+            font-weight: 900;
+            line-height: 2;
+            color: white;
 
+            padding: 0.9rem 1rem;
+            background: red;
+
+            margin-right: 0.8rem;
+
+            float: left;
+        }
+    </style>
+    
+    <h1>Litt om programering i html for nybeggynere</h1>
+    <div class="content">
     <p>
         Det er ikke så veldig vanskelig å lage en simpel nettside, men å lage en nettside som foreksempel <a href="https://www.vg.no/" target="_blank">VG</a> og mange andre nettsider du vet om er litt mere komplekse en min. Men hvis du skal ha nettsiden din på google må du betale for et domain eller finne et gratis domain som jeg bruker, som foreksempel .com og .no må du betale penger for.
     </p>
@@ -32,7 +47,7 @@
     <p>
         <center><img src="giphy.gif" width="250px"></center>
     </p>
-
+    </div>
 
     </body>
     </html>
