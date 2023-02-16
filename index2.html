@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>skole side</title>
+    </head>
+    <body bgcolor="#F3F3F3">
+    <body text="#000000">
+    <body link="#AE1F1F">
+    <body vlink="#AE1F1F">
+
+    <style>
+                h1::first-line {
+            color: rgb(174, 31, 31);
+        }
+        
+        .overskrift{
+            font-family: fantasy;
+            font-size: 18px;
+            font-weight: 0.5;
+        }
+
+        .innhold::first-letter {
+            font-size: 30px;
+            font-weight: 1000;
+            line-height: 1.5;
+            color: white;
+
+            padding: 0.9rem 1rem;
+            background: rgb(174, 31, 31);
+
+            margin-right: 0.5rem;
+
+            float: left;
+        }
+
+        .innhold{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 700;
+        }
+    </style>
+    
+    <div class="overskrift">
+        <h1>Flere sider på en nettside og litt ekstra</h1>
+    </div>
+
+    <div class="innhold">
+
+        <p>
+            Det og ha flere sider i nettsiden din er ganske simpelt det ser og høres komplisert ut men gjøres med noen få linjer med kode. Du kan gå og se på koden min hvis du går på min <a href="https://github.com/Young6511/skoleside" target="_blank">github</a>. Koden min er for alle og se på og bruke som insperasjon til sin egen nettside.
+        </p>
+
+        <p>
+            Jeg synes alle i porgramerings sammfunnet burde dele og hjelpe hverandre hvis de har svaret, alt jeg har gjort på den siden her har jeg tatt fra egen erfaring og nettsidene jeg har linket til.
+        </p>
+
+        <p>
+            Jeg synes html og css er gøy og kode med, når du endelig får modifisert siden din med css føler du på en mestringsfølelse. Jeg kommer til og forsette og programere nettsider og lære videre.
+        </p>
+
+        <p>
+            Hadde jeg skulle startet med programering i html og css hadde jeg besøkt disse nettsidene: <a href="https://www.w3schools.com/html/default.asp" target="_blank">w3schools html</a>, <a href="https://www.w3schools.com/css/default.asp" target="_blank">w3schools css</a>, <a href="https://animate.style/" target="_blank">animate.style</a>
+        </p>
+
+    </div>
+
+
+    
+    <script>
+        function switchPage(index) {
+            window.location.href = index + ".html";
+        }
+    </script>
+    
+    <div class="knapp">
+        <button 
+        style="
+        background: rgb(174, 31, 31);
+        color: white;
+        border-radius: 8px;
+        font-family: fantasy;
+        height: 35px;
+        width: 60px;
+        "
+        onclick="switchPage('index')">Side 1</button>
+    
+        <button 
+        style="
+        background: rgb(174, 31, 31);
+        color: white;
+        border-radius: 8px;
+        font-family: fantasy;
+        height: 35px;
+        width: 60px;
+        "
+        onclick="switchPage('index2')">Side 2</button>
+        </div>
+</body>
+</html>
